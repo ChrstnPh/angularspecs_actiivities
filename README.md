@@ -1,0 +1,1 @@
+# angularspecs_actiivities
