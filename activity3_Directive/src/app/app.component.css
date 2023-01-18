@@ -1,0 +1,35 @@
+body{
+  background: #CFB997;
+  padding:30px;
+  box-shadow:
+    0 0 60px 30px #fff,  /* inner white */
+    0 0 100px 60px #f0f, /* middle magenta */
+    0 0 140px 90px #0ff; /* outer cyan */
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+.img{
+  display: flex;
+  align-items:center;
+}
+
+img{
+  width:100px;
+  height:100px;
+}
+
+.student{
+  margin-top: 20px;
+
+  border: #B7B78A;
+  border-style: ridge;
+  border-radius: 5%;
+  background: #B7B78A;
+  box-shadow:0 0 10px 5px #61764B;
+}
+
+.titulo{
+  color:#473C33;
+}

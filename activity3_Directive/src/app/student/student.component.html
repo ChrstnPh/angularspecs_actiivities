@@ -1,0 +1,17 @@
+<div class="stdnt_prfl">
+  <h2>{{studentIn.firstName}} {{studentIn.lastName}}</h2>
+  <p *ngIf="studentIn.id">ID: {{studentIn.id}}</p>
+  <p *ngIf = "studentIn.age">Age: {{studentIn.age}}</p>
+  <p *ngIf = "studentIn.gender">Gender: {{studentIn.gender}}</p>
+  <p *ngIf = "studentIn.nationality">Nationality: {{studentIn.nationality}}</p>
+  <p *ngIF = "studentIn.status">Status: {{studentIn.status}}</p>
+  <p *ngIf = "studentIn.homeAddress">Home Address: {{studentIn.homeAddress}}</p>
+  <br>
+  <hr style="width:80%; float:left">
+  <h5>Education Background</h5>
+  <p *ngIf = "studentIn.college">College: {{studentIn.college}}</p>
+  <p *ngIf="studentIn.highSchool">High School: {{studentIn.highSchool}}</p>
+  <p *ngIf="studentIn.elemSchool">Elementary School: {{studentIn.elemSchool}}</p>
+  <br>
+</div>
+
