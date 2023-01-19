@@ -1,0 +1,14 @@
+
+
+<!-- <h3>{{ count }} </h3> -->
+
+<body>
+
+  <h1>{{ title}}</h1>
+  <p><label for="count"><b>SCORE: {{ count }}</b></label></p>
+
+  <div class="buttons">
+    <app-add (add)="receiveAdd()"></app-add>
+    <app-subtract (minus)="receiveSubtract()"></app-subtract>
+  </div>
+</body>
