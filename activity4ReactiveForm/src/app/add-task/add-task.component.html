@@ -1,0 +1,17 @@
+<h3>Add Task</h3>
+
+
+<form [formGroup]="taskForm" (ngSubmit)="addTask()">
+
+  <label for="task-name">Name of Task: </label>
+  <input type="text" formControlName="taskName" id="task-name" >
+  <br>
+  <label for="task-description">Description of Task: </label>
+  <input type="text" formControlName="taskDescription" id="task-description" >
+  <br>
+  <label for="task-doer">Doer of Task: </label>
+  <input type="text" formControlName="taskDoer" id="task-doer">
+  <br>
+  <button type="submit">Add Task to List</button>
+
+</form>
