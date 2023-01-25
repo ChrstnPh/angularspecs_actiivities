@@ -16,9 +16,9 @@ export class AddTaskComponent {
     taskName: new FormControl(''),
     taskDescription: new FormControl(''),
     taskDoer: new FormControl(''),
-  })
+  });
 
   addTask() {
-    // this.addTask.emit(this.taskForm.value);
+    this.addTask.emit(this.taskForm.value);
   }
 }
