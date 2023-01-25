@@ -11,7 +11,7 @@ export class AddTaskComponent {
     this.taskForm.reset();
   }
 
-  @Output() taskOut = new EventEmitter<any>();
+  @Output() taskOut = new EventEmitter();
   taskForm = new FormGroup({
     taskName: new FormControl(''),
     taskDescription: new FormControl(''),
