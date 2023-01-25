@@ -8,7 +8,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Activity 4: Reactive Form';
   isAddTask=false;
-  taskList: Task[] = [{}]
+  taskList: Task[] = [
+  {
+    Name: 'Washing ',
+    Description: ' Manually wash the clothes',
+    AssignTo: 'Christian',
+  
+  }];
 
   addTask(task: Task) {
     this.taskList.push(task);
