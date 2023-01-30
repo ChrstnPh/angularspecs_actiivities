@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css2?family=Itim');
+
+.articleDsply{
+    margin: 20px 30px 10px 30px;
+    padding:10px 10px 10px 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+    background: rgba(231, 231, 230, 0.667);
+    border-radius:5px;
+}
+
+.articleTitle{
+    font-family: Dancing Script;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.articleAuthor{
+    font-family: Itim;
+    font-weight:lighter;
+    font-size: 1.1rem;
+    color:rgba(0, 0, 0, 0.634);
+    
+}
+
+.articleCntnt{
+    text-align: justify;
+    font-size: small;
+}

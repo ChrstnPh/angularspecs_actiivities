@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+body{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+}
+
+
+
+#viewBtn{
+    font-family: Poppins;
+    background: none;
+    color:rgba(0, 0, 0, 0.608);
+    border:none;
+    margin: 0px 30px 10px 20px;
+}
+
+#viewBtn:hover{
+    /* display:none; */
+    background: none;
+    border:none;
+}
+
+#cmmntArea{
+    border: 0px transparent;
+    box-shadow: none;
+    border-color:none;
+    margin: 20px 30px 10px 30px;
+
+}
+
+
+
+
