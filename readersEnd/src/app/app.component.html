@@ -1,17 +1,10 @@
 <body>
-    <!-- <h1>{{title}}</h1> -->
-    
-
     <div class="article">
-        <hr>
         <app-article-display></app-article-display>
-        
-
         <p>
-            <a id="viewBtn" class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-              View comments...
-            </a>
+            <a href="" id="viewBtn" class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">View comments...</a>
         </p>
+
         <div id="cmmntArea" class="collapse" id="collapseExample">
             <div class="card card-body">
                 <div class="commentss" *ngFor="let comment of commentList">
@@ -23,14 +16,5 @@
             </div>
         </div>
 
-        
-
-
     </div>
-    
-    
-
-    
-    
-    
 </body>

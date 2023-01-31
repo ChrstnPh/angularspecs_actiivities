@@ -7,5 +7,5 @@ import { Comment } from '../comment';
   styleUrls: ['./comment-display.component.css']
 })
 export class CommentDisplayComponent {
-  // @Input() commentIn !: Comment;
+  @Input() commentIn !: Comment;
 }

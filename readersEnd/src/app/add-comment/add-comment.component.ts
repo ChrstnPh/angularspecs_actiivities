@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
+// import { Comment } from '../comment';
 
 @Component({
   selector: 'app-add-comment',
@@ -7,4 +9,17 @@ import { Component } from '@angular/core';
 })
 export class AddCommentComponent {
 
+  // title = 'Yay! Feel free to express yourself.';
+  ngOnInit(){
+    this.commentForm.reset();
+  }
+
+  @Output() commentOut = new EventEmitter();
+  commentForm = new FormGroup({
+    mycomment: new FormControl('')
+  })
+
+  addComment(){
+    this.commentOut.emit(this.commentForm.value)
+  }
 }

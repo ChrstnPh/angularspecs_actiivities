@@ -12,8 +12,8 @@
         
         <div id="id03" class="w3-container">
           <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-          <form action="">
-            <input type="text" class="addCommentArea" placeholder="Write a comment..." required>
+          <form [formGroup]="commentForm" (ngSubmit)="addComment()">
+            <input id="my-comment" type="text" ng-model= "comments" class="addCommentArea" placeholder="Write a comment..." formControlName="mycomment">
             <br>
             <button id="button02" type="submit">Submit</button>
           </form>

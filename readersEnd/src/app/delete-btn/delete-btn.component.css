@@ -1,0 +1,10 @@
+button{
+    background: none;
+    background-color: rgba(250, 235, 215, 0);
+    border: none;
+}
+
+img{
+    width:20px;
+    height: auto;
+}

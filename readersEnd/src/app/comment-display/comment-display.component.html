@@ -5,11 +5,23 @@
         <h1>Comments</h1>
     </div>
 
-    <div class="user">
-        <h3>User says...</h3> <!--user must be the part where we get the username ofthe user who commented -->
+    <div class="commentsss">
+        <div class="user">
+            <h3 *ngIf="commentIn.userName">{{commentIn.userName}} says...</h3> <!--user must be the part where we get the username ofthe user who commented -->
+        </div>
+        <div class="commentContent">
+            <p *ngIf="commentIn.comments">{{commentIn.comments}}</p> <!-- text must be the part where we get the comment -->
+        </div>
+        <div class="myComment">
+            <p *ngIf="commentIn.mycomment" contenteditable="true">
+                {{commentIn.mycomment}}
+                <button>
+                    <app-delete-btn></app-delete-btn>
+                </button>
+            </p>
+            
+        </div>
     </div>
-    <div class="commentContent">
-        <p>Whatever it is that you want!</p> <!-- text must be the part where we get the comment -->
-    </div>
+    
     
 </div>
